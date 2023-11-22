@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mesa de Efeitos Sonoros</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <h1>Efeitos Sonoros</h1>
+
+    <input type="range" id="volumeRange" min="0" max="100" value="50">
+
+    <section class="teclado">
+        <button class="tecla tecla_Tema">Tema</button>
+        <button class="tecla tecla_Lutadores">Lutadores</button>
+        <button class="tecla tecla_suspense">Suspense</button>
+
+        <button class="tecla tecla_criancas">Crianças</button>
+        <button class="tecla tecla_sirene">Sirene</button>
+        <button class="tecla tecla_falha">Falha</button>
+
+        <button class="tecla tecla_poder">Cristo</button>
+        <button class="tecla tecla_inside">Inside Out</button>
+        <button class="tecla tecla_cinema">Cinema</button>
+    </section>
+
+    <audio src="sounds/The Sting Theme (Joplin - The Entertainer).mp3" id="som_tecla_Tema"></audio>
+    <audio src="sounds/Survivor - Eye Of The Tiger (Lyrics).mp3" id="som_tecla_Lutadores"></audio>
+    <audio src="sounds/Som de Suspense.mp3" id="som_tecla_suspense"></audio>
+    <audio src="sounds/Kids Nursery Rhymes Instrumental _ Kiddiez Play _.mp3" id="som_tecla_criancas"></audio>
+    <audio src="sounds/Sirene de ambulância _ Efeito sonoro.mp3" id="som_tecla_sirene"></audio>
+    <audio src="sounds/Sound _Fail_ (Som de falha).mp3" id="som_tecla_falha"></audio>
+    <audio src="sounds/Aline Barros - Poder Pra Salvar (Mighty to Save) _Ao Vivo Em Los Angeles_.mp3" id="som_tecla_poder"></audio>
+    <audio src="sounds/Michael Giacchino - Soundtrack Pixar's Inside Out (2015) - 11 Chasing the Pink Elephant.mp3" id="som_tecla_inside"></audio>
+    <audio src="sounds/Abertura 20th Century Fox.mp3" id="som_tecla_cinema"></audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
