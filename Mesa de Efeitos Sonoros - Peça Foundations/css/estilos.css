@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
+  padding: 10px; 
 }
 
 
@@ -33,6 +34,7 @@ h1 {
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
+  
 }
 
 .tecla {
@@ -74,4 +76,19 @@ h1 {
 
   margin-top: 15px;
   margin-bottom: 25px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Estilos específicos para telas menores (ajuste conforme necessário) */
+  body {
+      padding: 10px;
+  }
+
+  .teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
